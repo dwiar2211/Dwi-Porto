@@ -553,6 +553,24 @@ main {
           saturate(624%) hue-rotate(359deg);
 }
 
+/* Web Design */
+.service-item:nth-child(1) .service-icon-box img {
+  width: 44px;
+  height: 44px;
+}
+
+/* Web Development */
+.service-item:nth-child(2) .service-icon-box img {
+  width: 44px;
+  height: 44px;
+}
+
+/* Robotic */
+.service-item:nth-child(4) .service-icon-box img {
+  width: 52px;
+  height: 52px;
+}
+
 .service-content-box { text-align: center; }
 
 .service-item-title { margin-bottom: 7px; }
@@ -1325,6 +1343,18 @@ textarea.form-input::-webkit-resizer { display: none; }
   height: 48px;
 }
 
+/* Web Design & Web Dev */
+.service-item:nth-child(1) .service-icon-box img,
+.service-item:nth-child(2) .service-icon-box img {
+  width: 52px;
+  height: 52px;
+}
+
+/* Robotic (lebih gede) */
+.service-item:nth-child(4) .service-icon-box img {
+  width: 60px;
+  height: 60px;
+}
 
   /**
    * #MAIN
