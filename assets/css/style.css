@@ -1924,4 +1924,15 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
+/* ================================
+   PORTFOLIO: SHOW ONLY 1 PROJECT
+   ================================ */
+
+.project-item {
+  display: none !important;
+}
+
+.project-item.keep-only {
+  display: block !important;
+}
 
